@@ -10,7 +10,7 @@ long duration;
 int distance;
 int safetyDistance;
 
-const uint8_t node_id = 10;
+const uint8_t node_id = 9;
 const uint8_t network_id = 0;
 
 //var for time
@@ -32,7 +32,7 @@ void setup()
   Serial.begin(9600);
 
 	dsh_radio.initialize(RF69_915MHZ, node_id, network_id);
-	dsh_radio.setHighPower(false);
+	dsh_radio.setHighPower(true);
 
 }
 

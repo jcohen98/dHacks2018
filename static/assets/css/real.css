@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background-attachment: fixed;
+    background-color: #e1e6e1;
+    background-image: url("../../images/overlay.png"), url("../../images/bg.jpg");
+    background-repeat: repeat, repeat-x;
+    background-size: 128px 128px, cover;
+}
+#page-wrapper {
+
+}
+
+#wrapper {
+    height: 100%;
+
+}
+
+#content {
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+
+}
+
+#demo-wrapper {
+    height: 600px;
+    width: 500px;    
+
+}
+
+#heatmap {
+    height: 500px;
+    width: 500px;    
+    top: 100px;
+    background-color: black;
+    background-size: 40px 40px;
+    background-image: radial-gradient(circle, white 1px, rgba(0, 0, 0, 0) 1px);
+    box-shadow: 0 2rem 4rem 0.25rem rgba(46, 43, 55, 0.575);
+
+}
+h1 {
+    position: absolute;
+bottom: 550px;
+    font-size: 2rem !important;
+}
